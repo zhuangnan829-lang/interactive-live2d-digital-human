@@ -1,0 +1,11 @@
+
+DevTools listening on ws://127.0.0.1:9333/devtools/browser/6a15ff86-a7e0-4886-9854-ceee2cf235ac
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[41264:14012:1008/133738.974:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[41264:3460:1008/133753.955:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 7376: 拒绝访问。 (0x5)
+[41264:33608:1008/133753.957:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 7376: 拒绝访问。 (0x5)
+[41264:3460:1008/133756.115:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 37740: 拒绝访问。 (0x5)
+[41264:33608:1008/133758.274:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 49616: 拒绝访问。 (0x5)
+[41264:3460:1008/133800.420:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 15876: 拒绝访问。 (0x5)
+[41264:33608:1008/133802.582:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 3864: 拒绝访问。 (0x5)
+[41264:14012:1008/133804.649:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
