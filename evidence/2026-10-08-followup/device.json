@@ -1,0 +1,18 @@
+{
+  "cpu": "Intel(R) Core(TM) i7-14700HX",
+  "gpu": [
+    {
+      "Name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "DriverVersion": "32.0.15.6624"
+    },
+    {
+      "Name": "Intel(R) UHD Graphics",
+      "DriverVersion": "32.0.101.6790"
+    }
+  ],
+  "os": {
+    "Caption": "Microsoft Windows 11 家庭版 中文版",
+    "Version": "10.0.26200"
+  },
+  "ramBytes": 16873545728
+}

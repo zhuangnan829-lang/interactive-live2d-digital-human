@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports: ["8080:8080"]
+    depends_on:
+      backend:
+        condition: service_healthy
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      TTS_VOICE: ${TTS_VOICE:-zh-CN-XiaoxiaoNeural}
+      TTS_MAX_LENGTH: ${TTS_MAX_LENGTH:-500}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5

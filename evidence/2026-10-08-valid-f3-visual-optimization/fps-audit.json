@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "durationMs": 60011.4,
+  "frames": 6387,
+  "averageFps": 106.42977834211501,
+  "maxGapMs": 345.6,
+  "viewport": [1920, 1080],
+  "dpr": 1.0000000298023224,
+  "canvas": [1104, 1080],
+  "rendererDpr": 1.0000000298023224,
+  "browser": "Chrome/152.0.0.0 (Codex in-app browser, Windows 10 x64 UA)",
+  "visible": true,
+  "focused": true,
+  "firstReadyFromNavigationMs": 618.5,
+  "firstReadyMeasurementNote": "Separate final production reload after adding the read-only timing field.",
+  "modelResource": {
+    "url": "http://localhost:8080/assets/candidates/Asian_F_3_Busi.glb",
+    "durationMs": 63.200000047683716,
+    "transferSize": 2103376,
+    "encodedBodySize": 2103076,
+    "decodedBodySize": 2103076
+  },
+  "jsHeap": {
+    "usedJSHeapSize": 98637357,
+    "totalJSHeapSize": 101504661,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "completedAt": "2026-10-08T00:35:34.931Z",
+  "method": "Count after renderer.render; invalidate on blur, hidden state, or viewport change. Resource Timing records model loading."
+}

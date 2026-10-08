@@ -1,0 +1,377 @@
+[
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "debug",
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1791436946174.121,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 826,
+            "columnNumber": 8
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "debug",
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1791436946178.868,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "handleMessage",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 930,
+            "columnNumber": 11
+          },
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 445,
+            "columnNumber": 41
+          },
+          {
+            "functionName": "dequeue",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 467,
+            "columnNumber": 7
+          },
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 459,
+            "columnNumber": 8
+          },
+          {
+            "functionName": "enqueue",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 453,
+            "columnNumber": 9
+          },
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 445,
+            "columnNumber": 27
+          },
+          {
+            "functionName": "onMessage",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 293,
+            "columnNumber": 5
+          },
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 401,
+            "columnNumber": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "debug",
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1791436946233.571,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 826,
+            "columnNumber": 8
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "debug",
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1791436946246.036,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "handleMessage",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 930,
+            "columnNumber": 11
+          },
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 445,
+            "columnNumber": 41
+          },
+          {
+            "functionName": "dequeue",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 467,
+            "columnNumber": 7
+          },
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 459,
+            "columnNumber": 8
+          },
+          {
+            "functionName": "enqueue",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 453,
+            "columnNumber": 9
+          },
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 445,
+            "columnNumber": 27
+          },
+          {
+            "functionName": "onMessage",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 293,
+            "columnNumber": 5
+          },
+          {
+            "functionName": "",
+            "scriptId": "4",
+            "url": "http://localhost:5000/@vite/client",
+            "lineNumber": 401,
+            "columnNumber": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "Runtime.consoleAPICalled",
+    "params": {
+      "type": "log",
+      "args": [
+        {
+          "type": "string",
+          "value": "Live2D Cubism SDK Core Version 6.0.1"
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1791436946351,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "c",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 201191
+          },
+          {
+            "functionName": "n.<computed>",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 31950
+          },
+          {
+            "functionName": "",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 81298
+          },
+          {
+            "functionName": "Z",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 81402
+          },
+          {
+            "functionName": "ra",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 105184
+          },
+          {
+            "functionName": "Ha",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 154898
+          },
+          {
+            "functionName": "",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 192941
+          },
+          {
+            "functionName": "",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 192969
+          },
+          {
+            "functionName": "ab",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 192992
+          },
+          {
+            "functionName": "",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 69316
+          },
+          {
+            "functionName": "k",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 72655
+          },
+          {
+            "functionName": "a._csmReviveMocInPlace",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 203004
+          },
+          {
+            "functionName": "a.ccall",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 827,
+            "columnNumber": 208743
+          },
+          {
+            "functionName": "_csm.reviveMocInPlace",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 28,
+            "columnNumber": 23
+          },
+          {
+            "functionName": "Moc",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 360,
+            "columnNumber": 29
+          },
+          {
+            "functionName": "Moc.fromArrayBuffer",
+            "scriptId": "6",
+            "url": "http://localhost:5000/Core/live2dcubismcore.js",
+            "lineNumber": 395,
+            "columnNumber": 22
+          },
+          {
+            "functionName": "create",
+            "scriptId": "52",
+            "url": "http://localhost:5000/@fs/C:/Users/a/AppData/Local/Temp/live2d-avatar-audit-20261008/demo/Framework/src/model/cubismmoc.ts",
+            "lineNumber": 28,
+            "columnNumber": 35
+          },
+          {
+            "functionName": "loadModel",
+            "scriptId": "41",
+            "url": "http://localhost:5000/@fs/C:/Users/a/AppData/Local/Temp/live2d-avatar-audit-20261008/demo/Framework/src/model/cubismusermodel.ts",
+            "lineNumber": 118,
+            "columnNumber": 24
+          },
+          {
+            "functionName": "",
+            "scriptId": "23",
+            "url": "http://localhost:5000/src/lappmodel.ts?t=1791436912684",
+            "lineNumber": 100,
+            "columnNumber": 9
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "Log.entryAdded",
+    "params": {
+      "entry": {
+        "source": "network",
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "timestamp": 1791436946374.405,
+        "url": "http://localhost:5000/favicon.ico",
+        "networkRequestId": "28252.163"
+      }
+    }
+  },
+  {
+    "method": "Log.entryAdded",
+    "params": {
+      "entry": {
+        "source": "network",
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "timestamp": 1791436954354.513,
+        "url": "http://localhost:5000/favicon.ico",
+        "networkRequestId": "28252.209"
+      }
+    }
+  }
+]

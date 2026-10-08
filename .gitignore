@@ -1,0 +1,9 @@
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.env
+__pycache__/
+tmp/
+output/
+context-bridge-*.tgz
+题目4-数字人验收与素材索引.zip

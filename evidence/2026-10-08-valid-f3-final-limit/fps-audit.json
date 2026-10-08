@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "durationMs": 60009.6,
+  "frames": 5232,
+  "averageFps": 87.18605023196288,
+  "maxGapMs": 30.5,
+  "viewport": [1920, 1080],
+  "dpr": 1.0000000298023224,
+  "canvas": [1104, 1080],
+  "rendererDpr": 1.0000000298023224,
+  "visible": true,
+  "focused": true,
+  "firstReadyFromNavigationMs": 759.5,
+  "modelResource": {
+    "durationMs": 34.39999985694885,
+    "transferSize": 300,
+    "encodedBodySize": 2103076,
+    "decodedBodySize": 2103076,
+    "cacheState": "HTTP 304 revalidation"
+  },
+  "jsHeap": {
+    "usedJSHeapSize": 94852114,
+    "totalJSHeapSize": 97825598,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "completedAt": "2026-10-08T01:09:30.049Z",
+  "method": "Count after renderer.render; invalidate on blur, hidden state, or viewport change."
+}

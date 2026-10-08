@@ -1,0 +1,17 @@
+[
+  {
+    "requestId": "00A0BF7503D14CE0235DA6A3039B4289",
+    "timestamp": 1943424.937263,
+    "type": "Document",
+    "errorText": "net::ERR_ABORTED",
+    "canceled": true
+  },
+  {
+    "status": 404,
+    "url": "http://localhost:5000/favicon.ico"
+  },
+  {
+    "status": 404,
+    "url": "http://localhost:5000/favicon.ico"
+  }
+]
