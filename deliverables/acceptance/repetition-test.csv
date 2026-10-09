@@ -1,0 +1,11 @@
+round,emotion,strength,text_reference,audio_correct,mouth_sync,stop_closes_mouth,no_overlap,no_crash,evidence,notes
+1,natural,0.18,第1轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-01.json,口型峰值0.899；音频能量峰值0.836
+2,smile,0.32,第2轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-02.json,口型峰值0.975；音频能量峰值0.847
+3,serious,0.46,第3轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-03.json,口型峰值0.899；音频能量峰值0.786
+4,curious,0.60,第4轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-04.json,口型峰值0.716；音频能量峰值0.644
+5,natural,0.74,第5轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-05.json,口型峰值0.776；音频能量峰值0.629
+6,smile,0.88,第6轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-06.json,口型峰值0.836；音频能量峰值0.737
+7,serious,0.95,第7轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-07.json,口型峰值0.755；音频能量峰值0.697
+8,curious,0.67,第8轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-08.json,口型峰值0.920；音频能量峰值0.893
+9,natural,0.41,第9轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-09.json,口型峰值0.634；音频能量峰值0.717
+10,smile,0.79,第10轮现场测试,true,true,true,true,true,evidence/2026-10-09-final-acceptance/repetition/round-10.json,口型峰值0.743；音频能量峰值0.708

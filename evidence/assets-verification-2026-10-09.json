@@ -1,0 +1,43 @@
+
+> assets:verify
+> node scripts/verify-live2d-assets.mjs
+
+{
+  "verified": 34,
+  "sha256": {
+    "public/Core/live2dcubismcore.js": "3ba426cc788d74f276598e98fe97983214f2a95758b48dafb1e606d041db1ba7",
+    "public/Resources/haru_greeter_t05/haru_greeter_t05.model3.json": "69036a21dd977762245f7bf4175cf2b4d0f79c1d2c091856355727b1ed0b0388",
+    "public/Resources/haru_greeter_t05/haru_greeter_t05.moc3": "597571191064a12ffe592bcb5fade586ef5876bbbcf78905c348a78a0991432a",
+    "public/Resources/haru_greeter_t05/haru_greeter_t05.physics3.json": "b09a654759a0a0a49998a263757b10f310377adab4b8a281ae5c70902a8a7d1f",
+    "public/Resources/haru_greeter_t05/haru_greeter_t05.pose3.json": "84b799b22e0b67991c6a2daf2e68b56fb95edbbacb3dd2c8dfe3ea0ec67ada95",
+    "public/Resources/haru_greeter_t05/haru_greeter_t05.1024/texture_00.rgba.gz": "6e6aff3a70cfccdbe376f32026b1bf59782295154bff09d9d7510a22e10865b5",
+    "public/Resources/haru_greeter_t05/haru_greeter_t05.1024/texture_01.rgba.gz": "d1147f30af966a6aae692798d05201c0ed81832240227d7c33a0128fdb938cf1",
+    "public/Resources/haru_greeter_t05/motion/haru_g_idle.motion3.json": "8a4fac459abf35dfb049188e4330d485a9fce54ae6111625f4ffae4d9b03abfb",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m01.motion3.json": "ed85c07795fba2e57d7701b706ba04516b83a0b7e4463752320c2c0a8bdca033",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m02.motion3.json": "8a187a9a830ddb62f5471dc974782af68f61dfeb12b31eb3858d3513cf2c035d",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m03.motion3.json": "8edba3952e0c45ce0bc3d20755ba212528b6450641e82dec162d7a327d48b82b",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m04.motion3.json": "9532599ea7c54452e1b2a689652a76e50fa1d261f0a5cd0adaaa01b1c567fbdf",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m05.motion3.json": "5015d14ffad99a9eb43f48dfaa6e400072b610467611ad72221b04a21e3252c6",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m06.motion3.json": "311c544c67282cbc40ac1e0287751b20a7f49a46f4eea989b7071efc3188053c",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m07.motion3.json": "faa3aa7ca9c05cc395003a4a072ea8d3397c9a3480c9220e486dd70beb32bda9",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m08.motion3.json": "8933e2e0db8818037db817d5e6aa4fd795c6f3e302fceae26f2b5a4b88889446",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m09.motion3.json": "d6c8abb01dcfee8246cccbe7a437f025cb31884f8408f3207e1a6e4139888e45",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m10.motion3.json": "27933b0363abda5c13a55cfea5f2968293abcbc8995140773ff2bf7186c631c1",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m11.motion3.json": "cd4afa96422f649cdf32782f6d79594a52fbc106717a4b4056caaddbec7538d3",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m12.motion3.json": "0bfe78e6bd66dccf9ca8d5267aeb2b56f35dae7605ef7c74feb21606768d38da",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m13.motion3.json": "cb59cafad6567b4dfe71f69d6fc19d17902f9a397badc4e4003491229fe744be",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m14.motion3.json": "a61765c485d61169b2dbd3a4b760d409964edd6f272f3ae26ef3069e8ebc7559",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m15.motion3.json": "4383147bd61a7bd2d990591512bfe29eea743f93868e8679ffed16e588628088",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m16.motion3.json": "7ab44f3e3e3258c4666fb3ed3643e947faf04a2c17b77bc0b12121ea983c9e23",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m17.motion3.json": "9be971760fb922e3dc3d588b7eca15c48655db721c3578d73e54daf55fc8677d",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m18.motion3.json": "4dbecfa60f081dc5ff63a08fbbf27889663f766b4c449df534a904528d2b7f36",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m19.motion3.json": "598c52b4068482ece9c1d6ddf1f0f0dd8b18eb625fa3e758a0acb677bb2eac9d",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m20.motion3.json": "536e467d6533c0883b2ad6c8915bc632b4d4188fc3d3abb19cc6b4f5fd12ddb9",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m21.motion3.json": "02efb8fc2296da6531d364dec7929c1685763046b744ba470326b7961c7123b3",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m22.motion3.json": "02f2bca00f22281966a86d6885dbdee67d725c7dc163e5b2bbbeb1ccf9fb5ec3",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m23.motion3.json": "24cef039138ce14c902807cf1a4d24ce48cfb4802c788a9a9fb8b5a6c4556444",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m24.motion3.json": "70c9f34193f3d9fd30f9ec204a333b0169bb290540e751cfa203de6611a9c8d7",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m25.motion3.json": "bef0fdcd9bc40d61eebb723234e00a5f87ba00d97f31f65dd215b862c3074245",
+    "public/Resources/haru_greeter_t05/motion/haru_g_m26.motion3.json": "2b20fbbf31439a5792c808085ecd4c9dc5addeb6195c6d113a25e77f7acc0f4f"
+  }
+}

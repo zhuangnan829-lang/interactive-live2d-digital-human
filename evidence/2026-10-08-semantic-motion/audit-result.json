@@ -1,0 +1,386 @@
+{
+  "results": [
+    {
+      "text": "欢迎体验我们的交互式数字人系统。",
+      "expectedEmotion": "smile",
+      "expectedMotion": "speaking",
+      "state": {
+        "emotion": "smile",
+        "emotionSource": "auto",
+        "strength": 0.62,
+        "mouth": 0,
+        "motionState": "speaking",
+        "speechEnergy": 0,
+        "speechCadence": 0,
+        "emphasisPulse": 0,
+        "semanticEmphasis": false,
+        "ready": true,
+        "audit": {
+          "mouthOpenY": 0,
+          "mouthForm": 0.48359999999999975,
+          "browLY": 0.07439999999999995,
+          "browRY": 0.07439999999999995,
+          "headZ": -0.30727640535924483,
+          "speechEnergy": 0,
+          "speechCadence": 0,
+          "emphasisPulse": 0,
+          "speechMotionBlend": 0.8685593683960118,
+          "emphasisMotionBlend": 0
+        }
+      }
+    },
+    {
+      "text": "本系统支持实时语音播报、表情切换和智能交互。",
+      "expectedEmotion": "natural",
+      "expectedMotion": "speaking",
+      "state": {
+        "emotion": "natural",
+        "emotionSource": "auto",
+        "strength": 0.62,
+        "mouth": 0.26565989409863355,
+        "motionState": "speaking",
+        "speechEnergy": 0.4795657550272747,
+        "speechCadence": 0.3126640000000224,
+        "emphasisPulse": 0.19574625482421815,
+        "semanticEmphasis": false,
+        "ready": true,
+        "audit": {
+          "mouthOpenY": 0.32885221137329196,
+          "mouthForm": 1.6214550995383892e-12,
+          "browLY": 2.494546306982137e-13,
+          "browRY": 2.494546306982137e-13,
+          "headZ": -0.15808172081421787,
+          "speechEnergy": 0.49816626467324354,
+          "speechCadence": 0.3178000000000001,
+          "emphasisPulse": 0.1927525385635282,
+          "speechMotionBlend": 0.8892190041652597,
+          "emphasisMotionBlend": 0
+        }
+      }
+    },
+    {
+      "text": "核心优势在于实时响应和自然表达能力。",
+      "expectedEmotion": "serious",
+      "expectedMotion": "emphasis",
+      "state": {
+        "emotion": "serious",
+        "emotionSource": "auto",
+        "strength": 0.62,
+        "mouth": 0.7138469382781778,
+        "motionState": "emphasis",
+        "speechEnergy": 0.6097527026320966,
+        "speechCadence": 0.3389440000000224,
+        "emphasisPulse": 0.22801159812041616,
+        "semanticEmphasis": true,
+        "ready": true,
+        "audit": {
+          "mouthOpenY": 0.7071575736118804,
+          "mouthForm": -0.13639999718347937,
+          "browLY": -0.26039999462300606,
+          "browRY": -0.26039999462300606,
+          "headZ": 0.39511534163515266,
+          "speechEnergy": 0.5803927900139711,
+          "speechCadence": 0.342447999999933,
+          "emphasisPulse": 0.2,
+          "speechMotionBlend": 0.8879490273176672,
+          "emphasisMotionBlend": 0.8879488706720297
+        }
+      }
+    }
+  ],
+  "lifecycle": [
+    {
+      "round": 1,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 2,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 3,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 4,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 5,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 6,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 7,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 8,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 9,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    },
+    {
+      "round": 10,
+      "activeRequests": 1,
+      "motionState": "speaking",
+      "mouth": 0
+    }
+  ],
+  "manualOverride": {
+    "emotion": "smile",
+    "source": "manual"
+  },
+  "finalState": {
+    "state": {
+      "emotion": "smile",
+      "emotionSource": "manual",
+      "strength": 0.62,
+      "mouth": 0,
+      "motionState": "idle",
+      "speechEnergy": 0,
+      "speechCadence": 0,
+      "emphasisPulse": 0,
+      "semanticEmphasis": false,
+      "ready": true
+    },
+    "audit": {
+      "statusHistory": [
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready"
+      ],
+      "emotionHistory": [
+        "natural",
+        "smile",
+        "natural",
+        "serious",
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile"
+      ],
+      "semanticHistory": [
+        {
+          "emotion": "smile",
+          "emphasis": false,
+          "reason": "欢迎/介绍语义",
+          "clauseCount": 2,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 2,
+          "questionCount": 0
+        },
+        {
+          "emotion": "serious",
+          "emphasis": true,
+          "reason": "重点语义",
+          "clauseCount": 2,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "serious",
+          "emphasis": true,
+          "reason": "重点语义",
+          "clauseCount": 2,
+          "questionCount": 0
+        }
+      ],
+      "motionHistory": [
+        "idle",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "emphasis",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "speaking",
+        "finished",
+        "emphasis",
+        "finished"
+      ],
+      "maxMouth": 0.8482871263876314,
+      "currentMouth": 0,
+      "stoppedMouth": 0,
+      "parameterSnapshot": {
+        "mouthOpenY": 0,
+        "mouthForm": 0.48359999999999986,
+        "browLY": 0.07439999999999997,
+        "browRY": 0.07439999999999997,
+        "headZ": 0.38865354723215667,
+        "speechEnergy": 0,
+        "speechCadence": 0,
+        "emphasisPulse": 0,
+        "speechMotionBlend": 0.03881250884871154,
+        "emphasisMotionBlend": 0.03881250884871154
+      },
+      "emotionSource": "manual",
+      "activeRequests": 0
+    }
+  }
+}

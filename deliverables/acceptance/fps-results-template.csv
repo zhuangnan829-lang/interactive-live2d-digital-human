@@ -1,0 +1,2 @@
+run_id,cpu,gpu,memory_gb,os,browser_version,window_size,viewport_size,canvas_css_size,render_buffer_size,dpr,duration_ms,render_intervals,average_fps,foreground,valid,invalid_reason,evidence
+FPS-20261009-01,Intel(R) Core(TM) i7-14700HX,NVIDIA GeForce RTX 4070 Laptop GPU; Intel(R) UHD Graphics,15.7,Windows 11 家庭版 10.0.26200 build 26200,Chrome 154.0.8037.98,1920x1080,1904x985,800x985,800x985,1,60009.7,2879,47.98,true,true,,evidence/2026-10-09-final-acceptance/fps-60s-raw.json

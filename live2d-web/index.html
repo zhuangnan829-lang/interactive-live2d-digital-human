@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>交互式数字人 · 实时中文讲解</title>
+  <link rel="preload" href="/Resources/haru_greeter_t05/haru_greeter_t05.model3.json?v=20261009-rgba1024" as="fetch" crossorigin="anonymous">
+  <link rel="preload" href="/Resources/haru_greeter_t05/haru_greeter_t05.moc3" as="fetch" crossorigin="anonymous">
+  <link rel="preload" href="/Resources/haru_greeter_t05/haru_greeter_t05.1024/texture_00.rgba.gz" as="fetch" crossorigin="anonymous" fetchpriority="high">
+  <link rel="preload" href="/Resources/haru_greeter_t05/haru_greeter_t05.1024/texture_01.rgba.gz" as="fetch" crossorigin="anonymous" fetchpriority="high">
+  <link rel="stylesheet" href="./src/audit.css">
+  <script src="./Core/live2dcubismcore.js"></script>
+  <script src="./src/main.ts" type="module"></script>
+</head>
+<body>
+  <main class="shell">
+    <section class="intro" aria-labelledby="hero-title">
+      <div class="intro-copy">
+        <h1 id="hero-title">
+          <span>数字人实时讲解</span>
+          <strong>让展示更具亲和力</strong>
+        </h1>
+        <p class="lead">可用于产品说明、活动介绍与信息展示，通过自然互动提升讲解表现力。</p>
+
+        <div class="features" aria-label="数字人能力">
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M13 2 4.8 13.2h6.1L10 22l8.6-12h-6.2L13 2Z"/></svg>
+            </span>
+            <div><h2>稳定的实时表现</h2><p>流畅的语音与口型驱动，呈现自然的讲解效果。</p></div>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5.3 4h13.4A3.3 3.3 0 0 1 22 7.3v7.4a3.3 3.3 0 0 1-3.3 3.3h-7.5l-4.5 3v-3H5.3A3.3 3.3 0 0 1 2 14.7V7.3A3.3 3.3 0 0 1 5.3 4Zm2.2 8.2a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4Zm4.5 0a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4Zm4.5 0a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4Z"/></svg>
+            </span>
+            <div><h2>清晰的交互流程</h2><p>简单的操作步骤，快速完成内容配置与播报。</p></div>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            </span>
+            <div><h2>适配多种展示场景</h2><p>支持产品说明、活动介绍、培训演示等场景。</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="presenter" aria-label="实时数字人">
+      <div class="status-pill" id="status-pill">LOADING</div>
+      <div class="telemetry"><b id="fps">0 FPS</b><span id="sample">等待 60 秒性能样本</span></div>
+    </section>
+
+    <aside class="panel">
+      <header>
+        <h2>轻松完成内容播报<span class="audio-wave" aria-hidden="true"><i></i><i></i><i></i><i></i></span></h2>
+        <p class="panel-subtitle">输入文字、切换情绪，即时开始讲解。</p>
+        <p id="status" class="sr-only" aria-live="polite">正在加载数字人与实时渲染资源…</p>
+      </header>
+
+      <label class="text-field">讲解内容
+        <textarea id="text" maxlength="500" autofocus placeholder="欢迎使用交互式数字人。接下来，我将根据您输入的内容，完成自然流畅的中文讲解。"></textarea>
+      </label>
+
+      <div class="field-label">表达状态</div>
+      <div class="emotions" id="emotions">
+        <button class="selected" data-emotion="natural">自然</button>
+        <button data-emotion="smile">微笑</button>
+        <button data-emotion="serious">认真</button>
+        <button data-emotion="curious">疑惑</button>
+      </div>
+
+      <label class="strength-row">表达强度 <output id="strength-value">62%</output>
+        <span class="field-hint">调节表情与动作丰富程度</span>
+        <input id="strength" type="range" min="0" max="1" step="0.01" value="0.62">
+      </label>
+
+      <div class="actions">
+        <button id="speak" class="primary" disabled><span class="button-icon play" aria-hidden="true"></span>开始播报</button>
+        <button id="stop" disabled><span class="button-icon stop" aria-hidden="true"></span>立即停止</button>
+        <button id="retry" title="恢复自然表情和默认强度，保留讲解内容"><span class="button-icon reset" aria-hidden="true"></span>重置表达</button>
+        <button id="reload-avatar" class="reload-avatar" hidden><span class="button-icon reset" aria-hidden="true"></span>重新加载人物</button>
+      </div>
+
+      <span id="mouth-meter">Mouth 0.00</span>
+    </aside>
+  </main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "failed": {
+    "status": "人物配置加载失败：Failed to fetch。请检查资源后点击“重新加载人物”。",
+    "pill": "ERROR",
+    "retryVisible": true,
+    "speakDisabled": true,
+    "canvasCount": 1
+  },
+  "recovered": {
+    "status": "Haru Reception 已通过官方 Cubism Web SDK 加载。",
+    "pill": "READY",
+    "retryVisible": false,
+    "speakDisabled": false,
+    "canvasCount": 1
+  },
+  "interceptedRequests": [
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/haru_greeter_t05.model3.json?v=20261009-rgba1024",
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/haru_greeter_t05.moc3",
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/haru_greeter_t05.1024/texture_00.rgba.gz",
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/haru_greeter_t05.1024/texture_01.rgba.gz",
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/haru_greeter_t05.model3.json?v=20261009-rgba1024&retry=2",
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/haru_greeter_t05.physics3.json",
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/haru_greeter_t05.pose3.json",
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/motion/haru_g_idle.motion3.json",
+    "http://127.0.0.1:8080/Resources/haru_greeter_t05/motion/haru_g_m01.motion3.json"
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "round": 3,
+  "emotion": "serious",
+  "strength": 0.46,
+  "firstText": "第3轮现场测试。现在验证真实语音、口型同步和立即停止。",
+  "replayText": "第3轮修改后的内容，重新播报并正常结束。",
+  "firstSpeech": {
+    "peakMouth": 0.8990028498786493,
+    "peakEnergy": 0.7858225314242336,
+    "states": [
+      {
+        "mouth": 0,
+        "energy": 0
+      },
+      {
+        "mouth": 0,
+        "energy": 0
+      },
+      {
+        "mouth": 0.6008049,
+        "energy": 0.1918533062416516
+      },
+      {
+        "mouth": 0.47962396237561594,
+        "energy": 0.5307301205366445
+      },
+      {
+        "mouth": 0.8990028498786493,
+        "energy": 0.6570314339334472
+      },
+      {
+        "mouth": 0.721115960600866,
+        "energy": 0.7858225314242336
+      },
+      {
+        "mouth": 0.5955857072904037,
+        "energy": 0.7333840411557201
+      },
+      {
+        "mouth": 0.31872336965193554,
+        "energy": 0.568659474196018
+      },
+      {
+        "mouth": 0.6922044368503745,
+        "energy": 0.6595134888124099
+      },
+      {
+        "mouth": 0.5068484248550902,
+        "energy": 0.6784846991750704
+      },
+      {
+        "mouth": 0.2283340227653883,
+        "energy": 0.46915012307771115
+      },
+      {
+        "mouth": 0.1169070196558788,
+        "energy": 0.3854727935548552
+      },
+      {
+        "mouth": 0.3219579038206552,
+        "energy": 0.3331807178283974
+      },
+      {
+        "mouth": 0.27693329628045515,
+        "energy": 0.3341823283800038
+      }
+    ]
+  },
+  "stopped": {
+    "status": "已立即停止播报并清空待播放内容，可修改后重新开始。",
+    "pill": "READY",
+    "mouthText": "Mouth 0.00",
+    "emotion": "serious",
+    "strength": 0.46,
+    "canvasCount": 1,
+    "functional": {
+      "statusHistory": [
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready"
+      ],
+      "emotionHistory": [
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile",
+        "smile",
+        "serious",
+        "serious"
+      ],
+      "semanticHistory": [
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        }
+      ],
+      "motionHistory": [
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle"
+      ],
+      "maxMouth": 0.9931171202155565,
+      "currentMouth": 0,
+      "stoppedMouth": 0.6940784363283945,
+      "parameterSnapshot": {
+        "mouthOpenY": 0,
+        "expressionStrength": 0.46,
+        "gestureScale": 0.94794,
+        "presentationMotionIndex": 0,
+        "armPartFamily": 1,
+        "naturalMotionScale": 0.6112,
+        "speechActivityScale": 0.146344,
+        "playbackProgress": 0,
+        "activeCueIndex": -1,
+        "semanticExpression": 0,
+        "semanticGesture": 0,
+        "semanticHead": 0,
+        "mouthForm": -0.1012,
+        "browLY": -0.1932,
+        "browRY": -0.1932,
+        "headZ": -0.20076388660371058,
+        "speechEnergy": 0,
+        "speechIntensity": 0,
+        "speechPaused": 0,
+        "energyPeak": 0,
+        "gesturePulse": 0,
+        "speechCadence": 0,
+        "emphasisPulse": 0,
+        "emotionTransitionProgress": 1,
+        "emotionSmileBlend": 0,
+        "emotionSeriousBlend": 1,
+        "emotionCuriousBlend": 0,
+        "armAOpacity": 1,
+        "armBOpacity": 0,
+        "speechMotionBlend": 0.00001097538272920051,
+        "emphasisMotionBlend": 0
+      },
+      "emotionSource": "manual",
+      "activeRequests": 0,
+      "timelineHistory": [
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第1轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第1轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第2轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第2轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第3轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        }
+      ]
+    }
+  },
+  "replaySpeech": {
+    "peakMouth": 0.8375922575460892,
+    "peakEnergy": 0.793583460955968,
+    "states": [
+      {
+        "mouth": 0,
+        "energy": 0
+      },
+      {
+        "mouth": 0,
+        "energy": 0
+      },
+      {
+        "mouth": 0.53271,
+        "energy": 0.14968574541928548
+      },
+      {
+        "mouth": 0.33272581137098245,
+        "energy": 0.4763723977796893
+      },
+      {
+        "mouth": 0.8375922575460892,
+        "energy": 0.714688543272639
+      },
+      {
+        "mouth": 0.7577309136908781,
+        "energy": 0.7765678217379475
+      },
+      {
+        "mouth": 0.6958983847997509,
+        "energy": 0.793583460955968
+      },
+      {
+        "mouth": 0.4431377327311823,
+        "energy": 0.6514028964245082
+      },
+      {
+        "mouth": 0.5524185878243376,
+        "energy": 0.5974856764464043
+      },
+      {
+        "mouth": 0.2844163227260983,
+        "energy": 0.4934153359578055
+      },
+      {
+        "mouth": 0.19667634218659208,
+        "energy": 0.3968911433179264
+      },
+      {
+        "mouth": 0.13199741198400425,
+        "energy": 0.22314970298139822
+      },
+      {
+        "mouth": 0.3371197779573744,
+        "energy": 0.3911035637717456
+      },
+      {
+        "mouth": 0.5709800363597657,
+        "energy": 0.5036457712573811
+      }
+    ]
+  },
+  "finished": {
+    "status": "播报完成，嘴型、表情与讲话动作已平滑复位。",
+    "pill": "READY",
+    "mouthText": "Mouth 0.00",
+    "emotion": "serious",
+    "strength": 0.46,
+    "canvasCount": 1,
+    "functional": {
+      "statusHistory": [
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready"
+      ],
+      "emotionHistory": [
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile",
+        "smile",
+        "serious",
+        "serious",
+        "serious"
+      ],
+      "semanticHistory": [
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        }
+      ],
+      "motionHistory": [
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished"
+      ],
+      "maxMouth": 0.9931171202155565,
+      "currentMouth": 0,
+      "stoppedMouth": 0.6940784363283945,
+      "parameterSnapshot": {
+        "mouthOpenY": 0,
+        "expressionStrength": 0.46,
+        "gestureScale": 0.94794,
+        "presentationMotionIndex": 0,
+        "armPartFamily": 1,
+        "naturalMotionScale": 0.6112,
+        "speechActivityScale": 0.146344,
+        "playbackProgress": 0,
+        "activeCueIndex": -1,
+        "semanticExpression": 0,
+        "semanticGesture": 0,
+        "semanticHead": 0,
+        "mouthForm": -0.1012,
+        "browLY": -0.1932,
+        "browRY": -0.1932,
+        "headZ": 0.14022313420419308,
+        "speechEnergy": 0,
+        "speechIntensity": 0,
+        "speechPaused": 0,
+        "energyPeak": 0,
+        "gesturePulse": 0,
+        "speechCadence": 0,
+        "emphasisPulse": 0,
+        "emotionTransitionProgress": 1,
+        "emotionSmileBlend": 0,
+        "emotionSeriousBlend": 1,
+        "emotionCuriousBlend": 0,
+        "armAOpacity": 1,
+        "armBOpacity": 0,
+        "speechMotionBlend": 0.2585096981687659,
+        "emphasisMotionBlend": 0
+      },
+      "emotionSource": "manual",
+      "activeRequests": 0,
+      "timelineHistory": [
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第1轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第1轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第2轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第2轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第3轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第3轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        }
+      ]
+    }
+  },
+  "responses": [
+    {
+      "at": 1791556728273,
+      "url": "http://127.0.0.1:8080/api/tts/prewarm",
+      "status": 200
+    },
+    {
+      "at": 1791556730637,
+      "url": "http://127.0.0.1:8080/api/tts/stream?text=%E7%AC%AC3%E8%BD%AE%E7%8E%B0%E5%9C%BA%E6%B5%8B%E8%AF%95%E3%80%82&client_id=fc3ba3eb-f9b1-441f-bf0b-b63028f8066b",
+      "status": 200
+    },
+    {
+      "at": 1791556732258,
+      "url": "http://127.0.0.1:8080/api/tts/cancel",
+      "status": 200
+    },
+    {
+      "at": 1791556735319,
+      "url": "http://127.0.0.1:8080/api/tts/prewarm",
+      "status": 200
+    },
+    {
+      "at": 1791556739506,
+      "url": "http://127.0.0.1:8080/api/tts/stream?text=%E7%AC%AC3%E8%BD%AE%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84%E5%86%85%E5%AE%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E6%92%AD%E6%8A%A5%E5%B9%B6%E6%AD%A3%E5%B8%B8%E7%BB%93%E6%9D%9F%E3%80%82&client_id=fc3ba3eb-f9b1-441f-bf0b-b63028f8066b",
+      "status": 200
+    }
+  ],
+  "consoleErrors": [],
+  "checks": {
+    "audioCorrect": true,
+    "mouthSync": true,
+    "stopClosesMouth": true,
+    "noOverlap": true,
+    "noCrash": true
+  }
+}

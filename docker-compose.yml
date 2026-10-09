@@ -1,7 +1,7 @@
 services:
   frontend:
     build:
-      context: ./frontend
+      context: ./live2d-web
       dockerfile: Dockerfile
     ports: ["8080:8080"]
     depends_on:
@@ -12,8 +12,16 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     environment:
-      TTS_VOICE: ${TTS_VOICE:-zh-CN-XiaoxiaoNeural}
+      TTS_PROVIDER: ${TTS_PROVIDER:-auto}
+      TTS_VOICE: ${TTS_VOICE:-zh-CN-XiaoyiNeural}
       TTS_MAX_LENGTH: ${TTS_MAX_LENGTH:-500}
+      TTS_CACHE_MAX_ENTRIES: ${TTS_CACHE_MAX_ENTRIES:-64}
+      DASHSCOPE_API_KEY: ${DASHSCOPE_API_KEY:-}
+      DASHSCOPE_WEBSOCKET_URL: ${DASHSCOPE_WEBSOCKET_URL:-}
+      ALIYUN_TTS_MODEL: ${ALIYUN_TTS_MODEL:-cosyvoice-v3-flash}
+      ALIYUN_TTS_VOICE: ${ALIYUN_TTS_VOICE:-longanqin_v3}
+      ALIYUN_TTS_RATE: ${ALIYUN_TTS_RATE:-1.0}
+      ALIYUN_TTS_PITCH: ${ALIYUN_TTS_PITCH:-1.03}
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
       interval: 15s

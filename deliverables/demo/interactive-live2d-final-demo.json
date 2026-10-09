@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "aspectRatio": 1.7777777777777777,
+    "cursor": "never",
+    "deviceId": "screen:0:0",
+    "displaySurface": "monitor",
+    "frameRate": 30,
+    "height": 1080,
+    "logicalSurface": true,
+    "resizeMode": "crop-and-scale",
+    "width": 1920
+  },
+  "mimeType": "video/webm;codecs=vp9,opus",
+  "audioTracks": 1,
+  "durationSeconds": null,
+  "width": 1728,
+  "height": 1080,
+  "sizeBytes": 26387460,
+  "trackSettings": {
+    "aspectRatio": 1.7777777777777777,
+    "cursor": "never",
+    "deviceId": "screen:0:0",
+    "displaySurface": "monitor",
+    "frameRate": 30,
+    "height": 1080,
+    "logicalSurface": true,
+    "resizeMode": "crop-and-scale",
+    "width": 1920
+  },
+  "savedPath": "D:\\Desktop\\110实验室考核\\deliverables\\demo\\interactive-live2d-final-demo.webm",
+  "actualSizeBytes": 26387460
+}

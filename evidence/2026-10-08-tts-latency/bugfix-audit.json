@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-10-08T22:59:00+08:00",
+  "reproductionText": "你好，你好，我是大师哥",
+  "emotion": {
+    "beforeClick": "natural",
+    "duringPlayback": "natural",
+    "smileWasAutomaticallySelected": false,
+    "manualSmileRegressionPassed": true,
+    "manualNaturalRegressionPassed": true
+  },
+  "coldStream": {
+    "transport": "stream",
+    "edgeTtsVersion": "7.2.8",
+    "firstSoundMs": 2535.3,
+    "firstMouthMs": 2750.7,
+    "previousFirstSoundMs": 4993.4,
+    "improvementPercent": 49.2,
+    "note": "无缓存时仍主要等待外部 edge-tts 首包；升级后复用进程级 SSL 上下文，并且不再等待完整 MP3。"
+  },
+  "prewarmedStream": {
+    "transport": "stream",
+    "statusFeedbackMs": 0.2,
+    "audioContextResumeMs": 0.4,
+    "playCalledMs": 0.7,
+    "firstSoundMs": 11.5,
+    "firstMouthMs": 273.9,
+    "emotion": "natural"
+  },
+  "prewarmRaceRegression": {
+    "acceptedAsBackgroundTask": true,
+    "activeSynthesesWhileGenerating": 1,
+    "streamReusesMatchingTask": true,
+    "duplicateSynthesis": false
+  },
+  "continuousStartStop": {
+    "cycles": 10,
+    "allPassed": true,
+    "finalActiveRequests": 0,
+    "finalMouth": 0,
+    "finalSpeechEnergy": 0,
+    "finalSpeechCadence": 0,
+    "finalEmphasisPulse": 0,
+    "finalMotionState": "idle",
+    "backendActiveSyntheses": 0
+  },
+  "serverCache": {
+    "maxEntries": 64,
+    "cachedUtterancesAfterPrewarm": 1,
+    "streamDownloadAfterCacheHitMs": 22.286
+  },
+  "evidence": "bugfix-natural-instant.png"
+}

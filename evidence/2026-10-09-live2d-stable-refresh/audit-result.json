@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-10-09T09:30:00+08:00",
+  "issues": [
+    "Avatar poster/live-canvas handoff could flash and leave the character invisible after refresh.",
+    "Startup work could delay practical text entry by 4-5 seconds."
+  ],
+  "rootCauses": [
+    "The cached poster was hidden on a fixed 180 ms timer instead of being tied to a sustained live WebGL frame.",
+    "All 27 motion files were started together and runtime consistency traversal repeated on every refresh.",
+    "The text area depended on a later click instead of being focus-ready at HTML parse time."
+  ],
+  "fixes": [
+    "Removed the avatar poster, Cache Storage handoff, canvas encoding, and preserveDrawingBuffer.",
+    "Kept model/texture preload and made the real Live2D canvas the only avatar surface.",
+    "Deferred all authored motions until after textures, then loaded them one at a time with 160 ms interaction gaps.",
+    "Prioritized intro, arm bridge, and presentation-safe hand motions without deleting any motion.",
+    "Disabled redundant per-refresh consistency traversal for bundled motion JSON while retaining normal parsing.",
+    "Added native autofocus to the narration textarea."
+  ],
+  "measurements": {
+    "reportedBeforeInputDelaySeconds": "4-5",
+    "latestAvatarReadyMs": 355.2,
+    "additionalAvatarReadySamplesMs": [207.9, 231.3, 257.3],
+    "directTypeChineseCharacters": 10,
+    "directTypeMs": 85,
+    "sustainedVisibleCheckSeconds": 10,
+    "canvasCount": 1,
+    "posterLayerCount": 0,
+    "motionParseRangeMs": [0.7, 2.2],
+    "motionCount": 27
+  },
+  "verification": {
+    "productionUrl": "http://127.0.0.1:5000/",
+    "textareaFocusedAfterRefresh": true,
+    "typedValuePersistedAfterTenSeconds": true,
+    "avatarVisibleAfterTenSeconds": true,
+    "helloTextSelectedEmotion": "自然",
+    "status": "Haru Reception 已通过官方 Cubism Web SDK 加载。",
+    "npmBuild": "passed",
+    "backendHealth": "ok",
+    "activeSynthesesAfterTest": 0,
+    "live2dModelUnchanged": true,
+    "authoredHandMotionsPreserved": true,
+    "ttsAudioMouthChainUnchanged": true,
+    "dockerStructureUnchanged": true
+  }
+}

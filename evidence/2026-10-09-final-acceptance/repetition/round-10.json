@@ -1,0 +1,1749 @@
+{
+  "round": 10,
+  "emotion": "smile",
+  "strength": 0.79,
+  "firstText": "第10轮现场测试。现在验证真实语音、口型同步和立即停止。",
+  "replayText": "第10轮修改后的内容，重新播报并正常结束。",
+  "firstSpeech": {
+    "peakMouth": 0.7431498067833857,
+    "peakEnergy": 0.7075465202085205,
+    "states": [
+      {
+        "mouth": 0,
+        "energy": 0
+      },
+      {
+        "mouth": 0,
+        "energy": 0
+      },
+      {
+        "mouth": 0.73064319408,
+        "energy": 0.40388424922580607
+      },
+      {
+        "mouth": 0.376667493575126,
+        "energy": 0.4637622226110891
+      },
+      {
+        "mouth": 0.47634214182354495,
+        "energy": 0.41378921633065635
+      },
+      {
+        "mouth": 0.7431498067833857,
+        "energy": 0.5528395771120291
+      },
+      {
+        "mouth": 0.6699341609171255,
+        "energy": 0.7075465202085205
+      },
+      {
+        "mouth": 0.3398927065435672,
+        "energy": 0.5465304469849457
+      },
+      {
+        "mouth": 0.6985136356892624,
+        "energy": 0.5342012722676057
+      },
+      {
+        "mouth": 0.43897048681130074,
+        "energy": 0.6365876705877855
+      },
+      {
+        "mouth": 0.1527718542946616,
+        "energy": 0.42083811186767306
+      },
+      {
+        "mouth": 0.04427569997777582,
+        "energy": 0.26001626989200416
+      },
+      {
+        "mouth": 0.37017787719942,
+        "energy": 0.2679306249756587
+      },
+      {
+        "mouth": 0.3034253911363671,
+        "energy": 0.3632315365486485
+      }
+    ]
+  },
+  "stopped": {
+    "status": "已立即停止播报并清空待播放内容，可修改后重新开始。",
+    "pill": "READY",
+    "mouthText": "Mouth 0.00",
+    "emotion": "smile",
+    "strength": 0.79,
+    "canvasCount": 1,
+    "functional": {
+      "statusHistory": [
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready"
+      ],
+      "emotionHistory": [
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile",
+        "smile",
+        "serious",
+        "serious",
+        "serious",
+        "curious",
+        "curious",
+        "curious",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile",
+        "smile",
+        "serious",
+        "serious",
+        "serious",
+        "curious",
+        "curious",
+        "curious",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile"
+      ],
+      "semanticHistory": [
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        }
+      ],
+      "motionHistory": [
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "emphasis",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle"
+      ],
+      "maxMouth": 0.9931171202155565,
+      "currentMouth": 0,
+      "stoppedMouth": 0.32932362391021697,
+      "parameterSnapshot": {
+        "mouthOpenY": 0,
+        "expressionStrength": 0.79,
+        "gestureScale": 1.039176,
+        "presentationMotionIndex": 0,
+        "armPartFamily": 1,
+        "naturalMotionScale": 0.8488,
+        "speechActivityScale": 0.191356,
+        "playbackProgress": 0,
+        "activeCueIndex": -1,
+        "semanticExpression": 0,
+        "semanticGesture": 0,
+        "semanticHead": 0,
+        "mouthForm": 0.6162000000000001,
+        "browLY": 0.0948,
+        "browRY": 0.0948,
+        "headZ": -0.35468869428134814,
+        "speechEnergy": 0,
+        "speechIntensity": 0,
+        "speechPaused": 0,
+        "energyPeak": 0,
+        "gesturePulse": 0,
+        "speechCadence": 0,
+        "emphasisPulse": 0,
+        "emotionTransitionProgress": 1,
+        "emotionSmileBlend": 1,
+        "emotionSeriousBlend": 0,
+        "emotionCuriousBlend": 0,
+        "armAOpacity": 1,
+        "armBOpacity": 0,
+        "speechMotionBlend": 0.000010021032648991249,
+        "emphasisMotionBlend": 1.0796357114931451e-61
+      },
+      "emotionSource": "manual",
+      "activeRequests": 0,
+      "timelineHistory": [
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第1轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第1轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第2轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第2轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第3轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第3轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第4轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第4轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第5轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第5轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第6轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第6轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第7轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第7轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第8轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第8轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第9轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第9轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第10轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 2.142857142857143
+          }
+        }
+      ]
+    }
+  },
+  "replaySpeech": {
+    "peakMouth": 0.6534001205681736,
+    "peakEnergy": 0.7417054139780627,
+    "states": [
+      {
+        "mouth": 0,
+        "energy": 0
+      },
+      {
+        "mouth": 0,
+        "energy": 0
+      },
+      {
+        "mouth": 0.3556875,
+        "energy": 0.003939347867764633
+      },
+      {
+        "mouth": 0.541851744296,
+        "energy": 0.5112193542331958
+      },
+      {
+        "mouth": 0.31238521120119994,
+        "energy": 0.4055334146895572
+      },
+      {
+        "mouth": 0.4476058762828694,
+        "energy": 0.4703014824615898
+      },
+      {
+        "mouth": 0.6534001205681736,
+        "energy": 0.7417054139780627
+      },
+      {
+        "mouth": 0.3569656019649787,
+        "energy": 0.5828752511394276
+      },
+      {
+        "mouth": 0.5974013550967369,
+        "energy": 0.5981506268403112
+      },
+      {
+        "mouth": 0.27473897603809877,
+        "energy": 0.48127462277700794
+      },
+      {
+        "mouth": 0.14759627413453139,
+        "energy": 0.37190146224489934
+      },
+      {
+        "mouth": 0.36869611764777294,
+        "energy": 0.3061041466039309
+      },
+      {
+        "mouth": 0.31348752617185427,
+        "energy": 0.3539011406761595
+      },
+      {
+        "mouth": 0.5067776477689252,
+        "energy": 0.5058338603119779
+      }
+    ]
+  },
+  "finished": {
+    "status": "播报完成，嘴型、表情与讲话动作已平滑复位。",
+    "pill": "READY",
+    "mouthText": "Mouth 0.00",
+    "emotion": "smile",
+    "strength": 0.79,
+    "canvasCount": 1,
+    "functional": {
+      "statusHistory": [
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "ready",
+        "loading",
+        "speaking",
+        "ready",
+        "loading",
+        "speaking",
+        "ready"
+      ],
+      "emotionHistory": [
+        "natural",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile",
+        "smile",
+        "serious",
+        "serious",
+        "serious",
+        "curious",
+        "curious",
+        "curious",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile",
+        "smile",
+        "serious",
+        "serious",
+        "serious",
+        "curious",
+        "curious",
+        "curious",
+        "natural",
+        "natural",
+        "natural",
+        "smile",
+        "smile",
+        "smile"
+      ],
+      "semanticHistory": [
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        },
+        {
+          "emotion": "natural",
+          "emphasis": false,
+          "reason": "常规说明语义",
+          "clauseCount": 3,
+          "questionCount": 0
+        }
+      ],
+      "motionHistory": [
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "emphasis",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished",
+        "idle",
+        "speaking",
+        "idle",
+        "speaking",
+        "finished"
+      ],
+      "maxMouth": 0.9931171202155565,
+      "currentMouth": 0,
+      "stoppedMouth": 0.32932362391021697,
+      "parameterSnapshot": {
+        "mouthOpenY": 0,
+        "expressionStrength": 0.79,
+        "gestureScale": 1.039176,
+        "presentationMotionIndex": 0,
+        "armPartFamily": 1,
+        "naturalMotionScale": 0.8488,
+        "speechActivityScale": 0.191356,
+        "playbackProgress": 0,
+        "activeCueIndex": -1,
+        "semanticExpression": 0,
+        "semanticGesture": 0,
+        "semanticHead": 0,
+        "mouthForm": 0.6162000000000001,
+        "browLY": 0.0948,
+        "browRY": 0.0948,
+        "headZ": 0.26579355327724863,
+        "speechEnergy": 0,
+        "speechIntensity": 0,
+        "speechPaused": 0,
+        "energyPeak": 0,
+        "gesturePulse": 0,
+        "speechCadence": 0,
+        "emphasisPulse": 0,
+        "emotionTransitionProgress": 1,
+        "emotionSmileBlend": 1,
+        "emotionSeriousBlend": 0,
+        "emotionCuriousBlend": 0,
+        "armAOpacity": 1,
+        "armBOpacity": 0,
+        "speechMotionBlend": 0.16762932583006115,
+        "emphasisMotionBlend": 5.331485415753715e-74
+      },
+      "emotionSource": "manual",
+      "activeRequests": 0,
+      "timelineHistory": [
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第1轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第1轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第2轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第2轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第3轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第3轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第4轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第4轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第5轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第5轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第6轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第6轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第7轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第7轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第8轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第8轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第9轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 1.9047619047619047
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第9轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3116666666666667,
+                "end": 0.4583333333333333,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.4583333333333333,
+                "peak": 0.8266666666666667,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 4.761904761904762
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第10轮现场测试。",
+                "start": 0,
+                "peak": 0.68,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 2.142857142857143
+          }
+        },
+        {
+          "segment": 0,
+          "timeline": {
+            "cues": [
+              {
+                "index": 0,
+                "type": "beat",
+                "text": "第10轮修改后的内容，",
+                "start": 0,
+                "peak": 0.3264,
+                "end": 0.48,
+                "intensity": 0.38,
+                "action": "none"
+              },
+              {
+                "index": 1,
+                "type": "beat",
+                "text": "重新播报并正常结束。",
+                "start": 0.48,
+                "peak": 0.8336,
+                "end": 1,
+                "intensity": 0.38,
+                "action": "none"
+              }
+            ],
+            "estimatedDuration": 5
+          }
+        }
+      ]
+    }
+  },
+  "responses": [
+    {
+      "at": 1791556852150,
+      "url": "http://127.0.0.1:8080/api/tts/prewarm",
+      "status": 200
+    },
+    {
+      "at": 1791556854711,
+      "url": "http://127.0.0.1:8080/api/tts/stream?text=%E7%AC%AC10%E8%BD%AE%E7%8E%B0%E5%9C%BA%E6%B5%8B%E8%AF%95%E3%80%82&client_id=fc3ba3eb-f9b1-441f-bf0b-b63028f8066b",
+      "status": 200
+    },
+    {
+      "at": 1791556856333,
+      "url": "http://127.0.0.1:8080/api/tts/cancel",
+      "status": 200
+    },
+    {
+      "at": 1791556859411,
+      "url": "http://127.0.0.1:8080/api/tts/prewarm",
+      "status": 200
+    },
+    {
+      "at": 1791556861962,
+      "url": "http://127.0.0.1:8080/api/tts/stream?text=%E7%AC%AC10%E8%BD%AE%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84%E5%86%85%E5%AE%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E6%92%AD%E6%8A%A5%E5%B9%B6%E6%AD%A3%E5%B8%B8%E7%BB%93%E6%9D%9F%E3%80%82&client_id=fc3ba3eb-f9b1-441f-bf0b-b63028f8066b",
+      "status": 200
+    }
+  ],
+  "consoleErrors": [],
+  "checks": {
+    "audioCorrect": true,
+    "mouthSync": true,
+    "stopClosesMouth": true,
+    "noOverlap": true,
+    "noCrash": true
+  }
+}

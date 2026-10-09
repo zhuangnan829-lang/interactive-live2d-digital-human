@@ -1,0 +1,10 @@
+check_id,场景,操作,观察点,通过条件,结果,证据
+VIS-01,人物,正面及轻微转头查看,比例、五官、发型、服装、光影,写实或半写实；非静态头像；无明显破面,通过,evidence/2026-10-09-final-acceptance/visual/expression-natural-strength-1.png
+VIS-02,待机,不操作观察30秒,眨眼、呼吸、视线或头部,自然且不同动作不机械同步,通过,evidence/2026-10-09-final-acceptance/natural-idle-30s.png
+VIS-03,表情,分别选择微笑/认真/疑惑/自然,眉眼、嘴角、头部配合,遮住标签仍能辨认三种情绪,通过,evidence/2026-10-09-final-acceptance/visual/expression-smile-strength-1.png
+VIS-04,强度,同一表情从0缓慢调到1再恢复,连续性、五官极值,平滑，无撕裂；0为弱/自然状态,通过,evidence/2026-10-09-final-acceptance/visual/visual-checks-failure.json
+VIS-05,说话,现场输入非预置中文,语音与当前文字、嘴型,声音一致；嘴随实际音频或音素变化,通过,evidence/2026-10-09-final-acceptance/repetition-10-rounds-raw.json
+VIS-06,叠加,播报中切表情调强度,情绪与口型是否冲突,所选情绪保留，嘴型仍正常,通过,evidence/2026-10-09-final-acceptance/fps-60s-raw.json
+VIS-07,停播,句中停止并等3秒,声音与嘴部,停止后声音停止、嘴部闭合，不残留旧动作,通过,evidence/2026-10-09-final-acceptance/repetition/round-01.json
+VIS-08,设置,改表情后刷新再恢复默认,持久化与重置,所选设置可恢复；默认按钮有效,通过,evidence/2026-10-09-final-acceptance/repetition-10-rounds-raw.json
+VIS-09,失败,模拟素材或TTS请求失败,加载和重试入口,明确失败；恢复后能重试，不永久卡住,通过,evidence/2026-10-09-final-acceptance/visual/model-retry-raw.json

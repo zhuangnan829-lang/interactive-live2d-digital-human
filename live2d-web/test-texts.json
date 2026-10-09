@@ -1,0 +1,20 @@
+[
+  {
+    "name": "短文本",
+    "text": "你好，这是交互式数字人。",
+    "expectedEmotion": "manual-selection",
+    "expectedMotion": "speaking"
+  },
+  {
+    "name": "中等文本",
+    "text": "本系统支持实时中文播报、表情切换、强度调节和基于真实音频能量的自然口型。",
+    "expectedEmotion": "manual-selection",
+    "expectedMotion": "speaking"
+  },
+  {
+    "name": "长文本",
+    "text": "欢迎体验交互式数字人系统。首先，请输入一段新的中文讲解内容，并选择合适的表达状态。系统会优先生成第一句语音，在播放时根据真实音频能量驱动嘴部，同时保留自然眨眼、呼吸、头部和手部动作；后续句子会在后台排队，停止后不会残留声音或口型。",
+    "expectedEmotion": "manual-selection",
+    "expectedMotion": "emphasis"
+  }
+]

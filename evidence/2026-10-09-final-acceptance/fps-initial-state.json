@@ -1,0 +1,26 @@
+{
+  "href": "http://127.0.0.1:8080/",
+  "outer": [
+    1920,
+    1080
+  ],
+  "inner": [
+    1904,
+    985
+  ],
+  "dpr": 1,
+  "visible": "visible",
+  "focused": true,
+  "canvas": [
+    {
+      "css": [
+        800,
+        985
+      ],
+      "buffer": [
+        800,
+        985
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-10-09T22:18:10+08:00",
+  "scope": "phase-1-to-5-docker-live2d-persistence-retry-license",
+  "docker": {
+    "commands": [
+      "docker compose down",
+      "docker compose up --build -d"
+    ],
+    "frontend": {
+      "image": "110-frontend",
+      "runtime": "nginx/1.27.5",
+      "status": "up",
+      "publishedPort": "8080:8080"
+    },
+    "backend": {
+      "image": "110-backend",
+      "runtime": "FastAPI/Uvicorn",
+      "status": "up (healthy)"
+    },
+    "removedHostPortConflict": {
+      "process": "python -m uvicorn app.main:app --host 127.0.0.1 --port 8080",
+      "pid": 32656,
+      "reason": "the stale development server shadowed Docker/Nginx on 127.0.0.1:8080"
+    }
+  },
+  "http": {
+    "page": { "status": 200, "server": "nginx/1.27.5", "bytes": 5086 },
+    "health": { "status": 200, "server": "nginx/1.27.5" },
+    "cubismCore": { "status": 200, "bytes": 246861 },
+    "modelJson": { "status": 200, "bytes": 2735 },
+    "moc3": { "status": 200, "bytes": 387392 },
+    "texture00RgbaGzip": { "status": 200, "bytes": 461529 },
+    "texture01RgbaGzip": { "status": 200, "bytes": 387600 },
+    "motions": { "requested": 27, "passed": 27, "failed": 0 }
+  },
+  "browser": {
+    "engine": "Chrome 155 in Codex in-app browser",
+    "normalLoad": {
+      "blockingConsoleErrors": 0,
+      "canvasCount": 1,
+      "readyMsColdOrigin": 694.5,
+      "selectedEmotion": "natural",
+      "strength": 0.62
+    },
+    "speech": {
+      "text": "欢迎体验最终 Docker 版本，我没有点击微笑按钮。",
+      "transport": "stream",
+      "selectedEmotionDuringSpeech": "natural",
+      "statusFeedbackMs": 2.8,
+      "audioContextResumeMs": 116.9,
+      "firstSoundMs": 1443.4,
+      "firstMouthMs": 1757.0,
+      "mouthObserved": 0.37,
+      "mouthAfterCompletion": 0.0,
+      "audioOverlapObserved": false
+    }
+  },
+  "directTtsAfterFinalRebuild": {
+    "status": 200,
+    "provider": "edge-tts",
+    "voice": "zh-CN-XiaoyiNeural",
+    "bytes": 32256,
+    "wallMs": 2688,
+    "backendFirstAudioMs": 1977.492,
+    "backendCompleteMs": 2518.245
+  },
+  "persistence": {
+    "saved": { "emotion": "serious", "strength": 0.81 },
+    "afterReload": { "emotion": "serious", "strength": 0.81, "canvasCount": 1 },
+    "afterResetAndReload": { "emotion": "natural", "strength": 0.62, "canvasCount": 1 },
+    "automaticSemanticExpressionPersisted": false
+  },
+  "modelRetry": {
+    "injection": "temporarily renamed model3.json inside the running frontend container",
+    "failure": {
+      "message": "人物配置加载失败：Model JSON HTTP 404。请检查资源后点击‘重新加载人物’。",
+      "retryVisible": true,
+      "speakDisabled": true,
+      "canvasCount": 1
+    },
+    "recovery": {
+      "attempt": 2,
+      "readyMs": 372.1,
+      "retryHidden": true,
+      "speakDisabled": false,
+      "canvasCount": 1,
+      "status": "Haru Reception 已通过官方 Cubism Web SDK 加载。"
+    }
+  },
+  "screenshots": {
+    "captured": true,
+    "views": [
+      "normal Docker/Nginx page with avatar",
+      "speech active with real mouth value",
+      "model 404 with dedicated retry button",
+      "successful recovery with one avatar canvas"
+    ],
+    "storage": "Codex browser evidence in this task conversation"
+  }
+}

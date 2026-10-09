@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-09T00:31:00+08:00",
+  "rootCause": "Synchronous WebGL canvas.toDataURL encoding and localStorage write blocked the browser main thread after avatar-ready.",
+  "before": {
+    "reportedInputBlockSeconds": "4-5",
+    "posterHandoffMsFromNavigation": 4309.4,
+    "storage": "synchronous localStorage data URL"
+  },
+  "after": {
+    "uiInitializedMsFromNavigation": 223.6,
+    "focusRequestDelayMs": 500,
+    "focusSucceededMsFromNavigation": 786.7,
+    "eventLoopDriftMs": 63.1,
+    "focusActive": true,
+    "modelReadyMsFromModuleStart": 557.2,
+    "posterBlobBytes": 48456,
+    "posterEncodeCallbackMs": 128.9,
+    "storage": "asynchronous Cache Storage Blob"
+  },
+  "regression": {
+    "avatarPosterPreserved": true,
+    "live2dModelUnchanged": true,
+    "motionsPreserved": true,
+    "ttsMouthChainUnchanged": true
+  }
+}

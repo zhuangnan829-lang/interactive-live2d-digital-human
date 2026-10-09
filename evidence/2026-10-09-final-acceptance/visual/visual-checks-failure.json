@@ -1,0 +1,543 @@
+{
+  "error": "TimeoutError: page.waitForFunction: Timeout 20000ms exceeded.",
+  "stack": "page.waitForFunction: Timeout 20000ms exceeded.\n    at D:\\Desktop\\110实验室考核\\tmp\\run-visual-checks.cjs:59:23",
+  "result": {
+    "expressions": {
+      "natural": {
+        "elapsedMs": 1279,
+        "state": {
+          "status": "已锁定自然状态；表情只按人工选择切换。",
+          "pill": "READY",
+          "emotion": "natural",
+          "strength": 1,
+          "retryVisible": false,
+          "speakDisabled": false,
+          "canvasCount": 1,
+          "runtime": {
+            "statusHistory": [
+              "ready",
+              "ready"
+            ],
+            "emotionHistory": [
+              "natural",
+              "natural"
+            ],
+            "semanticHistory": [],
+            "motionHistory": [
+              "idle"
+            ],
+            "maxMouth": 0,
+            "currentMouth": 0,
+            "stoppedMouth": null,
+            "parameterSnapshot": {
+              "mouthOpenY": 0,
+              "expressionStrength": 1,
+              "gestureScale": 1,
+              "presentationMotionIndex": -1,
+              "armPartFamily": 1,
+              "naturalMotionScale": 1,
+              "speechActivityScale": 0.22,
+              "playbackProgress": 0,
+              "activeCueIndex": -1,
+              "semanticExpression": 0,
+              "semanticGesture": 0,
+              "semanticHead": 0,
+              "mouthForm": 0,
+              "browLY": 0,
+              "browRY": 0,
+              "headZ": -0.2219784284332924,
+              "speechEnergy": 0,
+              "speechIntensity": 0,
+              "speechPaused": 0,
+              "energyPeak": 0,
+              "gesturePulse": 0,
+              "speechCadence": 0,
+              "emphasisPulse": 0,
+              "emotionTransitionProgress": 1,
+              "emotionSmileBlend": 0,
+              "emotionSeriousBlend": 0,
+              "emotionCuriousBlend": 0,
+              "armAOpacity": 1,
+              "armBOpacity": 0,
+              "speechMotionBlend": 0,
+              "emphasisMotionBlend": 0
+            },
+            "emotionSource": "manual",
+            "activeRequests": 0,
+            "timelineHistory": []
+          }
+        }
+      },
+      "smile": {
+        "elapsedMs": 1257,
+        "state": {
+          "status": "已锁定微笑状态；表情只按人工选择切换。",
+          "pill": "READY",
+          "emotion": "smile",
+          "strength": 1,
+          "retryVisible": false,
+          "speakDisabled": false,
+          "canvasCount": 1,
+          "runtime": {
+            "statusHistory": [
+              "ready",
+              "ready",
+              "ready"
+            ],
+            "emotionHistory": [
+              "natural",
+              "natural",
+              "smile"
+            ],
+            "semanticHistory": [],
+            "motionHistory": [
+              "idle"
+            ],
+            "maxMouth": 0,
+            "currentMouth": 0,
+            "stoppedMouth": null,
+            "parameterSnapshot": {
+              "mouthOpenY": 0,
+              "expressionStrength": 1,
+              "gestureScale": 1.08,
+              "presentationMotionIndex": -1,
+              "armPartFamily": 1,
+              "naturalMotionScale": 1,
+              "speechActivityScale": 0.22,
+              "playbackProgress": 0,
+              "activeCueIndex": -1,
+              "semanticExpression": 0,
+              "semanticGesture": 0,
+              "semanticHead": 0,
+              "mouthForm": 0.78,
+              "browLY": 0.12,
+              "browRY": 0.12,
+              "headZ": -0.0010560079035667838,
+              "speechEnergy": 0,
+              "speechIntensity": 0,
+              "speechPaused": 0,
+              "energyPeak": 0,
+              "gesturePulse": 0,
+              "speechCadence": 0,
+              "emphasisPulse": 0,
+              "emotionTransitionProgress": 1,
+              "emotionSmileBlend": 1,
+              "emotionSeriousBlend": 0,
+              "emotionCuriousBlend": 0,
+              "armAOpacity": 1,
+              "armBOpacity": 0,
+              "speechMotionBlend": 0,
+              "emphasisMotionBlend": 0
+            },
+            "emotionSource": "manual",
+            "activeRequests": 0,
+            "timelineHistory": []
+          }
+        }
+      },
+      "serious": {
+        "elapsedMs": 1262,
+        "state": {
+          "status": "已锁定认真状态；表情只按人工选择切换。",
+          "pill": "READY",
+          "emotion": "serious",
+          "strength": 1,
+          "retryVisible": false,
+          "speakDisabled": false,
+          "canvasCount": 1,
+          "runtime": {
+            "statusHistory": [
+              "ready",
+              "ready",
+              "ready",
+              "ready"
+            ],
+            "emotionHistory": [
+              "natural",
+              "natural",
+              "smile",
+              "serious"
+            ],
+            "semanticHistory": [],
+            "motionHistory": [
+              "idle"
+            ],
+            "maxMouth": 0,
+            "currentMouth": 0,
+            "stoppedMouth": null,
+            "parameterSnapshot": {
+              "mouthOpenY": 0,
+              "expressionStrength": 1,
+              "gestureScale": 1.05,
+              "presentationMotionIndex": -1,
+              "armPartFamily": 1,
+              "naturalMotionScale": 1,
+              "speechActivityScale": 0.22,
+              "playbackProgress": 0,
+              "activeCueIndex": -1,
+              "semanticExpression": 0,
+              "semanticGesture": 0,
+              "semanticHead": 0,
+              "mouthForm": -0.22,
+              "browLY": -0.42,
+              "browRY": -0.42,
+              "headZ": 0.22111328845775688,
+              "speechEnergy": 0,
+              "speechIntensity": 0,
+              "speechPaused": 0,
+              "energyPeak": 0,
+              "gesturePulse": 0,
+              "speechCadence": 0,
+              "emphasisPulse": 0,
+              "emotionTransitionProgress": 1,
+              "emotionSmileBlend": 0,
+              "emotionSeriousBlend": 1,
+              "emotionCuriousBlend": 0,
+              "armAOpacity": 1,
+              "armBOpacity": 0,
+              "speechMotionBlend": 0,
+              "emphasisMotionBlend": 0
+            },
+            "emotionSource": "manual",
+            "activeRequests": 0,
+            "timelineHistory": []
+          }
+        }
+      },
+      "curious": {
+        "elapsedMs": 1260,
+        "state": {
+          "status": "已锁定疑惑状态；表情只按人工选择切换。",
+          "pill": "READY",
+          "emotion": "curious",
+          "strength": 1,
+          "retryVisible": false,
+          "speakDisabled": false,
+          "canvasCount": 1,
+          "runtime": {
+            "statusHistory": [
+              "ready",
+              "ready",
+              "ready",
+              "ready",
+              "ready"
+            ],
+            "emotionHistory": [
+              "natural",
+              "natural",
+              "smile",
+              "serious",
+              "curious"
+            ],
+            "semanticHistory": [],
+            "motionHistory": [
+              "idle"
+            ],
+            "maxMouth": 0,
+            "currentMouth": 0,
+            "stoppedMouth": null,
+            "parameterSnapshot": {
+              "mouthOpenY": 0,
+              "expressionStrength": 1,
+              "gestureScale": 1,
+              "presentationMotionIndex": 0,
+              "armPartFamily": 1,
+              "naturalMotionScale": 1,
+              "speechActivityScale": 0.22,
+              "playbackProgress": 0,
+              "activeCueIndex": -1,
+              "semanticExpression": 0,
+              "semanticGesture": 0,
+              "semanticHead": 0,
+              "mouthForm": -0.08,
+              "browLY": 0.52,
+              "browRY": -0.08,
+              "headZ": 8.874082542645324,
+              "speechEnergy": 0,
+              "speechIntensity": 0,
+              "speechPaused": 0,
+              "energyPeak": 0,
+              "gesturePulse": 0,
+              "speechCadence": 0,
+              "emphasisPulse": 0,
+              "emotionTransitionProgress": 1,
+              "emotionSmileBlend": 0,
+              "emotionSeriousBlend": 0,
+              "emotionCuriousBlend": 1,
+              "armAOpacity": 1,
+              "armBOpacity": 0,
+              "speechMotionBlend": 0,
+              "emphasisMotionBlend": 0
+            },
+            "emotionSource": "manual",
+            "activeRequests": 0,
+            "timelineHistory": []
+          }
+        }
+      }
+    },
+    "persistence": {
+      "before": {
+        "status": "已锁定疑惑状态；表情只按人工选择切换。",
+        "pill": "READY",
+        "emotion": "curious",
+        "strength": 0.73,
+        "retryVisible": false,
+        "speakDisabled": false,
+        "canvasCount": 1,
+        "runtime": {
+          "statusHistory": [
+            "ready",
+            "ready",
+            "ready",
+            "ready",
+            "ready",
+            "ready"
+          ],
+          "emotionHistory": [
+            "natural",
+            "natural",
+            "smile",
+            "serious",
+            "curious",
+            "curious"
+          ],
+          "semanticHistory": [],
+          "motionHistory": [
+            "idle"
+          ],
+          "maxMouth": 0,
+          "currentMouth": 0,
+          "stoppedMouth": null,
+          "parameterSnapshot": {
+            "mouthOpenY": 0,
+            "expressionStrength": 0.73,
+            "gestureScale": 0.9513999999999999,
+            "presentationMotionIndex": 0,
+            "armPartFamily": 1,
+            "naturalMotionScale": 0.8056,
+            "speechActivityScale": 0.183172,
+            "playbackProgress": 0,
+            "activeCueIndex": -1,
+            "semanticExpression": 0,
+            "semanticGesture": 0,
+            "semanticHead": 0,
+            "mouthForm": -0.0584,
+            "browLY": 0.3796,
+            "browRY": -0.0584,
+            "headZ": 6.501143816232569,
+            "speechEnergy": 0,
+            "speechIntensity": 0,
+            "speechPaused": 0,
+            "energyPeak": 0,
+            "gesturePulse": 0,
+            "speechCadence": 0,
+            "emphasisPulse": 0,
+            "emotionTransitionProgress": 1,
+            "emotionSmileBlend": 0,
+            "emotionSeriousBlend": 0,
+            "emotionCuriousBlend": 1,
+            "armAOpacity": 1,
+            "armBOpacity": 0,
+            "speechMotionBlend": 0,
+            "emphasisMotionBlend": 0
+          },
+          "emotionSource": "manual",
+          "activeRequests": 0,
+          "timelineHistory": []
+        }
+      },
+      "after": {
+        "status": "Haru Reception 已通过官方 Cubism Web SDK 加载。",
+        "pill": "READY",
+        "emotion": "curious",
+        "strength": 0.73,
+        "retryVisible": false,
+        "speakDisabled": false,
+        "canvasCount": 1,
+        "runtime": {
+          "statusHistory": [
+            "ready"
+          ],
+          "emotionHistory": [
+            "natural"
+          ],
+          "semanticHistory": [],
+          "motionHistory": [
+            "idle"
+          ],
+          "maxMouth": 0,
+          "currentMouth": 0,
+          "stoppedMouth": null,
+          "parameterSnapshot": {
+            "mouthOpenY": 0,
+            "expressionStrength": 0.73,
+            "gestureScale": 0.9513999999999999,
+            "presentationMotionIndex": -1,
+            "armPartFamily": 1,
+            "naturalMotionScale": 0.8056,
+            "speechActivityScale": 0.183172,
+            "playbackProgress": 0,
+            "activeCueIndex": -1,
+            "semanticExpression": 0,
+            "semanticGesture": 0,
+            "semanticHead": 0,
+            "mouthForm": -0.0584,
+            "browLY": 0.3796,
+            "browRY": -0.0584,
+            "headZ": 5.868153066675615,
+            "speechEnergy": 0,
+            "speechIntensity": 0,
+            "speechPaused": 0,
+            "energyPeak": 0,
+            "gesturePulse": 0,
+            "speechCadence": 0,
+            "emphasisPulse": 0,
+            "emotionTransitionProgress": 1,
+            "emotionSmileBlend": 0,
+            "emotionSeriousBlend": 0,
+            "emotionCuriousBlend": 1,
+            "armAOpacity": 1,
+            "armBOpacity": 0,
+            "speechMotionBlend": 0,
+            "emphasisMotionBlend": 0
+          },
+          "emotionSource": "manual",
+          "activeRequests": 0,
+          "timelineHistory": []
+        }
+      },
+      "reset": {
+        "status": "已恢复默认表达；讲解内容与当前播报均已保留。",
+        "pill": "READY",
+        "emotion": "natural",
+        "strength": 0.62,
+        "retryVisible": false,
+        "speakDisabled": false,
+        "canvasCount": 1,
+        "runtime": {
+          "statusHistory": [
+            "ready",
+            "ready"
+          ],
+          "emotionHistory": [
+            "natural",
+            "natural"
+          ],
+          "semanticHistory": [],
+          "motionHistory": [
+            "idle"
+          ],
+          "maxMouth": 0,
+          "currentMouth": 0,
+          "stoppedMouth": null,
+          "parameterSnapshot": {
+            "mouthOpenY": 0,
+            "expressionStrength": 0.62,
+            "gestureScale": 0.9316,
+            "presentationMotionIndex": -1,
+            "armPartFamily": 1,
+            "naturalMotionScale": 0.7263999999999999,
+            "speechActivityScale": 0.16816799999999998,
+            "playbackProgress": 0,
+            "activeCueIndex": -1,
+            "semanticExpression": 0,
+            "semanticGesture": 0,
+            "semanticHead": 0,
+            "mouthForm": 0,
+            "browLY": 0,
+            "browRY": 0,
+            "headZ": -0.27302532556090187,
+            "speechEnergy": 0,
+            "speechIntensity": 0,
+            "speechPaused": 0,
+            "energyPeak": 0,
+            "gesturePulse": 0,
+            "speechCadence": 0,
+            "emphasisPulse": 0,
+            "emotionTransitionProgress": 1,
+            "emotionSmileBlend": 0,
+            "emotionSeriousBlend": 0,
+            "emotionCuriousBlend": 0,
+            "armAOpacity": 1,
+            "armBOpacity": 0,
+            "speechMotionBlend": 0,
+            "emphasisMotionBlend": 0
+          },
+          "emotionSource": "manual",
+          "activeRequests": 0,
+          "timelineHistory": []
+        }
+      }
+    },
+    "failureRetry": {},
+    "strengthZero": {
+      "status": "已锁定疑惑状态；表情只按人工选择切换。",
+      "pill": "READY",
+      "emotion": "curious",
+      "strength": 0,
+      "retryVisible": false,
+      "speakDisabled": false,
+      "canvasCount": 1,
+      "runtime": {
+        "statusHistory": [
+          "ready",
+          "ready",
+          "ready",
+          "ready",
+          "ready"
+        ],
+        "emotionHistory": [
+          "natural",
+          "natural",
+          "smile",
+          "serious",
+          "curious"
+        ],
+        "semanticHistory": [],
+        "motionHistory": [
+          "idle"
+        ],
+        "maxMouth": 0,
+        "currentMouth": 0,
+        "stoppedMouth": null,
+        "parameterSnapshot": {
+          "mouthOpenY": 0,
+          "expressionStrength": 0,
+          "gestureScale": 0.82,
+          "presentationMotionIndex": 0,
+          "armPartFamily": 1,
+          "naturalMotionScale": 0.28,
+          "speechActivityScale": 0.08360000000000001,
+          "playbackProgress": 0,
+          "activeCueIndex": -1,
+          "semanticExpression": 0,
+          "semanticGesture": 0,
+          "semanticHead": 0,
+          "mouthForm": 0,
+          "browLY": 0,
+          "browRY": 0,
+          "headZ": 0.11759871234267125,
+          "speechEnergy": 0,
+          "speechIntensity": 0,
+          "speechPaused": 0,
+          "energyPeak": 0,
+          "gesturePulse": 0,
+          "speechCadence": 0,
+          "emphasisPulse": 0,
+          "emotionTransitionProgress": 1,
+          "emotionSmileBlend": 0,
+          "emotionSeriousBlend": 0,
+          "emotionCuriousBlend": 1,
+          "armAOpacity": 1,
+          "armBOpacity": 0,
+          "speechMotionBlend": 0,
+          "emphasisMotionBlend": 0
+        },
+        "emotionSource": "manual",
+        "activeRequests": 0,
+        "timelineHistory": []
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-10-08T21:51:00+08:00",
+  "provider": "edge-tts fallback / zh-CN-XiaoyiNeural",
+  "baselineFullText": {
+    "description": "优化前等价路径：同一长文本整段提交并等待完整 MP3",
+    "wallMs": 6932.4,
+    "backendFirstAudioMs": 4680.13,
+    "backendCompleteMs": 6791.723,
+    "bytes": 149616
+  },
+  "optimizedLongText": {
+    "segmentCount": 5,
+    "statusFeedbackMs": 0.3,
+    "networkToBackendMs": 13.711,
+    "backendFirstAudioMs": 2978.957,
+    "backendCompleteMs": 3770.662,
+    "responseHeadersMs": 3791.8,
+    "blobCompleteMs": 3792.6,
+    "blobDurationMs": 0.8,
+    "audioContextResumeMs": 1.5,
+    "playCalledMs": 3795.3,
+    "firstSoundMs": 3799.6,
+    "firstMouthMs": 4043.8,
+    "completeMs": 33252.8,
+    "firstSegmentBytes": 22032
+  },
+  "shortText": {
+    "text": "本系统支持实时语音播报、表情切换和智能交互。",
+    "statusFeedbackMs": 0.2,
+    "networkToBackendMs": 10.907,
+    "backendFirstAudioMs": 4160.835,
+    "backendCompleteMs": 4779.848,
+    "responseHeadersMs": 4823.8,
+    "blobCompleteMs": 4824.9,
+    "blobDurationMs": 1.1,
+    "audioContextResumeMs": 0.6,
+    "playCalledMs": 4825.9,
+    "firstSoundMs": 4831.5,
+    "firstMouthMs": 4987.8,
+    "bytes": 32976
+  },
+  "providerVariability": {
+    "observedFirstSoundRangeMs": [3799.6, 9596.6],
+    "note": "同一 edge-tts 回退服务在复测中存在明显外部网络/服务波动；浏览器本地处理始终为毫秒级。"
+  },
+  "continuousStartStop": {
+    "rounds": 10,
+    "allPassed": true,
+    "backendCancellation": "显式 /tts/cancel；已进入合成的旧请求返回 HTTP 499，未进入后端的请求由浏览器 AbortController 截断",
+    "finalStateEveryRound": {
+      "activeRequests": 0,
+      "mouth": 0,
+      "speechEnergy": 0,
+      "speechCadence": 0,
+      "emphasisPulse": 0,
+      "motionState": "idle"
+    }
+  },
+  "screenshots": [
+    "browser-loading-feedback.png",
+    "browser-long-first-mouth.png",
+    "browser-short-first-mouth.png",
+    "browser-stop-after-10.png"
+  ]
+}
