@@ -10,12 +10,12 @@
     "resizeMode": "crop-and-scale",
     "width": 1920
   },
-  "mimeType": "video/webm;codecs=vp9,opus",
+  "mimeType": "video/mp4;codecs=avc1,mp4a",
   "audioTracks": 1,
-  "durationSeconds": null,
-  "width": 1728,
+  "durationSeconds": 64.92,
+  "width": 1920,
   "height": 1080,
-  "sizeBytes": 26387460,
+  "sizeBytes": 31782797,
   "trackSettings": {
     "aspectRatio": 1.7777777777777777,
     "cursor": "never",
@@ -27,6 +27,14 @@
     "resizeMode": "crop-and-scale",
     "width": 1920
   },
-  "savedPath": "D:\\Desktop\\110实验室考核\\deliverables\\demo\\interactive-live2d-final-demo.webm",
-  "actualSizeBytes": 26387460
+  "savedPath": "D:\\Desktop\\110实验室考核\\deliverables\\demo\\interactive-live2d-final-demo.mp4",
+  "actualSizeBytes": 31782797,
+  "verified": {
+    "container": "MP4",
+    "videoCodec": "H.264 Constrained Baseline",
+    "audioCodec": "AAC-LC",
+    "audioSampleRate": 48000,
+    "fps": 30,
+    "verifiedAt": "2026-10-09T23:16:29+08:00"
+  }
 }

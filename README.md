@@ -92,7 +92,7 @@ TTS_VOICE=zh-CN-XiaoyiNeural
 
 最终 Docker 页面连续 10 轮“选择表情和强度→输入→开始→句中停止→等待 3 秒→改文→重播到结束”全部通过。每轮均有 HTTP 200 音频、真实能量口型、停止后 Mouth 0.00、`activeRequests=0`、单 Canvas、无控制台崩溃，详见 `evidence/2026-10-09-final-acceptance/repetition-10-rounds-raw.json` 和 `deliverables/acceptance/repetition-test.csv`。
 
-最终演示视频：`deliverables/demo/interactive-live2d-final-demo.webm`。演示依次覆盖自然待机、四表情、强度变化、现场中文播报、播报中停止、改文重播和恢复默认。
+最终演示视频：`deliverables/demo/interactive-live2d-final-demo.mp4`（64.92 秒，1920×1080，30 FPS，H.264/AAC）。演示依次覆盖自然待机、四表情、强度变化、现场中文播报、播报中停止、改文重播和恢复默认。
 
 ## 关键验收场景
 
@@ -133,7 +133,7 @@ TTS_VOICE=zh-CN-XiaoyiNeural
 - `evidence/2026-10-09-expression-strength/`：表情和强度。
 - `evidence/2026-10-09-final-acceptance/`：最终 60 秒 FPS、视觉检查、模型失败重试及连续 10 轮原始证据。
 - `deliverables/acceptance/`：三份已填写验收 CSV。
-- `deliverables/demo/interactive-live2d-final-demo.webm`：最终不少于 60 秒演示视频。
+- `deliverables/demo/interactive-live2d-final-demo.mp4`：最终 64.92 秒、1920×1080、30 FPS、有声音的演示视频。
 - `docs/semantic-motion-control-2026-10-08.md`：语义动作验收说明。
 - `docs/tts-latency-optimization-2026-10-08.md`：延迟分析。
 - `docs/live2d-license-and-public-repository-2026-10-09.md`：官方许可核查与公开仓库策略。
