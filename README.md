@@ -94,6 +94,8 @@ TTS_VOICE=zh-CN-XiaoyiNeural
 
 最终演示视频：`deliverables/demo/interactive-live2d-final-demo.mp4`（64.92 秒，1920×1080，30 FPS，H.264/AAC）。演示依次覆盖自然待机、四表情、强度变化、现场中文播报、播报中停止、改文重播和恢复默认。
 
+补充录制视频：`deliverables/demo/interactive-live2d-supplemental-demo-2026-10-10.mp4`（另行生成，64.00 秒，1920×1080，30 FPS，H.264/AAC）。该文件作为新增的 Chrome 前台操作演示单独保留，不覆盖上述原始最终演示视频及其链接。
+
 ## 关键验收场景
 
 | 场景 | 步骤 | 已验证结果 |
@@ -134,6 +136,7 @@ TTS_VOICE=zh-CN-XiaoyiNeural
 - `evidence/2026-10-09-final-acceptance/`：最终 60 秒 FPS、视觉检查、模型失败重试及连续 10 轮原始证据。
 - `deliverables/acceptance/`：三份已填写验收 CSV。
 - `deliverables/demo/interactive-live2d-final-demo.mp4`：最终 64.92 秒、1920×1080、30 FPS、有声音的演示视频。
+- `deliverables/demo/interactive-live2d-supplemental-demo-2026-10-10.mp4`：2026-10-10 另行生成的 64 秒补充演示视频；原演示视频保持不变。
 - `docs/semantic-motion-control-2026-10-08.md`：语义动作验收说明。
 - `docs/tts-latency-optimization-2026-10-08.md`：延迟分析。
 - `docs/live2d-license-and-public-repository-2026-10-09.md`：官方许可核查与公开仓库策略。

@@ -1,0 +1,14 @@
+{
+  "kind": "supplemental_demo",
+  "generatedAt": "2026-10-10T00:16:00+08:00",
+  "file": "deliverables/demo/interactive-live2d-supplemental-demo-2026-10-10.mp4",
+  "originalVideoPreserved": "deliverables/demo/interactive-live2d-final-demo.mp4",
+  "durationSeconds": 64.0,
+  "width": 1920,
+  "height": 1080,
+  "frameRate": 30,
+  "videoCodec": "H.264",
+  "audioCodec": "AAC",
+  "sha256": "D15298ECA5DB1A75B8355D655C4FC354140D2C0F8DFE83CE2067CF7E408C33A7",
+  "note": "另行生成的 Chrome 前台补充演示视频，不覆盖原始最终演示视频。"
+}
